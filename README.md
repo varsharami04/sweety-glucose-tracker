@@ -115,4 +115,4 @@ Run the app and capture:
 2. Dashboard with daily readings and reports.
 3. Add/edit validation errors.
 4. Empty state for a date without readings.
-A 2–3 minute recording can follow this flow: login → add reading → show duplicate-slot validation → edit/delete → compare reports → logout.
+2–3 minute recording can follow this flow: login → add reading → show duplicate-slot validation → edit/delete → compare reports → logout.
