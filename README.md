@@ -109,20 +109,7 @@ All reading/report endpoints require `Authorization: Bearer <token>`.
 - JWT is stored in `localStorage` for this small demo. For production, consider secure, HttpOnly cookies, CSRF protections, rate limiting, password reset, email verification, audit logging, and stronger deployment configuration.
 - This is a tracking application, not a medical device. It does not diagnose or recommend treatment.
 
-## What I would improve with more time
-- Add pagination and chart visualizations.
-- Add frontend component tests and accessibility review.
-- Add Docker Compose for app + PostgreSQL.
-- Add rate limiting, refresh-token/session management, and password reset.
-- Add timezone-aware date handling and database migrations.
-- Add CI checks, deployment, and more authorization/security tests.
-
-## Suggested 3-day work plan
-1. Day 1: schema, authentication, protected API, validation.
-2. Day 2: React login/register, reading CRUD, reports.
-3. Day 3: tests, seed data, README, screenshots/recording, cleanup.
-
-## Screenshots / recording
+## Screenshots 
 Run the app and capture:
 1. Login page and demo credentials.
 2. Dashboard with daily readings and reports.
