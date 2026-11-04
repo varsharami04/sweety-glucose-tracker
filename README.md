@@ -109,6 +109,16 @@ All reading/report endpoints require `Authorization: Bearer <token>`.
 - JWT is stored in `localStorage` for this small demo. For production, consider secure, HttpOnly cookies, CSRF protections, rate limiting, password reset, email verification, audit logging, and stronger deployment configuration.
 - This is a tracking application, not a medical device. It does not diagnose or recommend treatment.
 
+## Future Improvements
+
+- Add interactive charts to visualize glucose trends over time.
+- Implement pagination and search/filter options for reading history.
+- Add data export functionality (CSV/PDF) for sharing reports with healthcare professionals.
+- Improve automated frontend and backend test coverage.
+- Add email or notification reminders for recording daily readings.
+- Enhance the dashboard with more detailed analytics and personalized insights.
+- Add Docker support for easier application setup and deployment.
+
 ## Screenshots 
 Run the app and capture:
 1. Login page and demo credentials.
